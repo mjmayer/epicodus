@@ -1,0 +1,11 @@
+h2.intro {
+    font-weight: bold;
+    font-size: 40px;
+}
+p.intro {
+    font-family: sans-serif;
+    text-indent: 50px;
+}
+img.intro {
+    display: inline-block;
+}
