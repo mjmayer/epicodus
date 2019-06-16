@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+li {
+    font-size: large;
+    line-height: 40px;
+}
