@@ -1,0 +1,26 @@
+
+.title {
+    font-size: 48px;
+    color: #0D1F22;
+    text-align: center;
+}
+
+body {
+    background-color: #B38A58;
+}
+
+.column {
+    flex: 50%;
+    border-width: 2px;
+    border-color: #264027;
+    border-style: solid;
+    padding: 4px;
+}
+
+.column img {
+    max-width: 200px;
+}
+
+.row {
+    display: flex;
+}
