@@ -10,11 +10,9 @@ body {
 }
 
 .column {
-    flex: 50%;
-    border-width: 2px;
-    border-color: #264027;
-    border-style: solid;
-    padding: 4px;
+    width: 50%;
+    float: left;
+    padding: 10px;
 }
 
 .name {
@@ -30,6 +28,11 @@ body {
     float: left;
 }
 
-.row {
-    display: flex;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+
 }
