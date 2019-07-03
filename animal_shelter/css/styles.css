@@ -17,8 +17,17 @@ body {
     padding: 4px;
 }
 
+.name {
+    font-size: 32px;
+    color: #0D1F22;
+}
 .column img {
     max-width: 200px;
+    float: left;
+}
+
+.column ul {
+    float: left;
 }
 
 .row {
