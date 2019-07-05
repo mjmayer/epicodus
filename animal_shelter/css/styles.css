@@ -7,10 +7,14 @@
 
 body {
     background-color: #B38A58;
+    margin: 0;
 }
 
+.container {
+    display: block;
+}
 .column {
-    width: 50%;
+    width: 500px;
     float: left;
     padding: 10px;
 }
@@ -20,7 +24,7 @@ body {
     color: #0D1F22;
 }
 .column img {
-    max-width: 200px;
+    width: 200px;
     float: left;
 }
 
@@ -28,11 +32,15 @@ body {
     float: left;
 }
 
-.row:after {
-    content: "";
-    display: table;
+.column h2 {
+    /*float: left;*/
+    /*display: inline-block;*/
+}
+
+.clear {
     clear: both;
 }
+
 @media screen and (max-width: 600px) {
 
 }
