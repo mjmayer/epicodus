@@ -1,0 +1,12 @@
+.clickable {
+    cursor: pointer;
+    color: blue;
+}
+
+.clickable:hover {
+    text-decoration: underline;
+}
+
+#walrus {
+    display: none;
+}
