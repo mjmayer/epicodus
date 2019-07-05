@@ -1,0 +1,28 @@
+#header {
+    background-color: #5D4e6d;
+    border-radius: 0;
+    margin-bottom: 0 !important;
+}
+
+.jumbotron h1 {
+    color: #9CBFA7
+}
+
+.column-header {
+    padding: 10px;
+
+}
+
+.projects p  {
+    padding: 10px;
+    margin-top: 10px;
+}
+.projects img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.about-me {
+    background-color: #8fa988;
+}
