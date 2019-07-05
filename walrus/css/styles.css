@@ -10,3 +10,11 @@
 #walrus {
     display: none;
 }
+
+.night-mode {
+    background-color: black;
+    color: white;
+}
+ #night-mode {
+     margin-top: 10px;
+ }
