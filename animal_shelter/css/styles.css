@@ -10,37 +10,44 @@ body {
     margin: 0;
 }
 
-.container {
-    display: block;
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-.column {
+.box {
     width: 500px;
     float: left;
     padding: 10px;
+    flex-basis: calc(50% - 40px);
 }
 
 .name {
     font-size: 32px;
     color: #0D1F22;
 }
-.column img {
+.box img {
     width: 200px;
     float: left;
 }
 
-.column ul {
+.box ul {
     float: left;
+    margin-top: 0px;
 }
 
-.column h2 {
+.box h2 {
+
     /*float: left;*/
-    /*display: inline-block;*/
 }
 
 .clear {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
+    .grid {
+        flex-direction: column;
+    }
 
 }
