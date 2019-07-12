@@ -12,18 +12,19 @@
 <body>
 <div class="container">
     <h1>Appointment Scheduler</h1>
+    <div id="inputForm">
     <form>
         <div class="form-group">
             <label for="inputEmail">Email Address</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required>
         </div>
         <div class="form-group">
             <label for="inputGivenName">First Name</label>
-            <input type="text" class="form-control" id="inputGivenName" placeholder="Enter first name">
+            <input type="text" class="form-control" id="inputGivenName" placeholder="Enter first name" required>
         </div>
         <div class="form-group">
             <label for="inputLastName">Last Name</label>
-            <input type="text" class="form-control" id="inputLastName" placeholder="Enter last name">
+            <input type="text" class="form-control" id="inputLastName" placeholder="Enter last name" required>
         </div>
         <br>
         <label for="inputReason">Appointment Reason</label>
@@ -44,9 +45,10 @@
             <input type="text" class="form-control" placeholder="Other reason" id="otherHelp">
         </div>
         </div>
-        <input type="submit" class="btn btn-primary" value="Submit">
+        <input type="submit" class="btn btn-primary" value="Submit" id="formSubmit">
 
     </form>
+    </div>
 </div>
 
 </body>
